@@ -1,0 +1,76 @@
+<div class="float-text show-on-scroll">
+            <span><a href="#">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+        
+        <div id="de-loader"></div>
+<header class="transparent scroll-light has-topbar">
+            <div id="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                <div class="header-widget d-flex">
+                                    <div class="topbar-widget"><a href="#"><i class="icofont-location-pin"></i>100 S Main St, Los Angeles, CA</a></div>                                    
+                                    <div class="topbar-widget"><a href="#"><i class="icofont-clock-time"></i><span>Mon - Sat: 8AM - 9PM</span><span class="ms-3">Sunday: 10AM - 8PM</a></div>
+                                    <div class="topbar-widget"><a href="#"><i class="icofont-envelope"></i>contact@reachus.com</a></div>
+                                </div>
+                                
+                                <div class="social-icons">
+                                    <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                    <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                                    <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                                    <a href="#"><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="/">
+                                <img class="logo-main" src="{{asset('asset/images/logo.webp')}}" alt="" >
+                                        <img class="logo-scroll" src="{{asset('asset/images/logo-black.webp')}}" alt="" >
+                                        <img class="logo-mobile" src="{{asset('asset/images/logo.webp')}}" alt="" >
+                                    </a>
+                                </div>
+                                <!-- logo close -->
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="/">Home</a>
+                            
+                                    </li>
+                                    <li><a class="menu-item" href="{{ url('services')}}">Services</a>
+                                    
+                                    </li>
+                                    <li><a class="menu-item" href="{{url('about')}}">About Us</a></li>
+                                    <li><a class="menu-item" href="{{url('study-case')}}">Study Case</a></li>
+                                    <li><a class="menu-item" href="{{url('Blog')}}">Blog</a></li>
+                                    <li><a class="menu-item" href="{{url('contact')}}">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <div class="h-phone xs-hide">
+                                        <i class="icofont-headphone-alt"></i>
+                                        <span>Need Help?</span><a href="tel:8123147355">8123147355</a>
+                                    </div>                                    
+                                    <a href="{{url('appointment')}}" class="btn-main d-xl-block d-md-none">Make Appointment</a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+       
